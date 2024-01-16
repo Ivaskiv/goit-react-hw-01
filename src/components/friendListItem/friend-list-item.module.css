@@ -8,20 +8,21 @@
   border-radius: 50%;
   margin-right: 10px;
 }
-
 .name {
+  font-size: 20px;
   font-weight: bold;
   margin-right: 10px;
 }
-
-.status {
-  margin-right: 10px;
+.marker {
+  margin-right: 7px;
+  display: block;
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
 }
-
-.statusOnline {
-  color: green;
+.on {
+  color: rgb(83, 214, 83);
 }
-
-.statusOffline {
-  color: red;
+.off {
+  color: rgb(215, 21, 21);
 }

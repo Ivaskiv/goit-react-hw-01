@@ -13,16 +13,18 @@
   font-weight: bold;
   margin-right: 10px;
 }
-.marker {
+/* .marker {
   margin-right: 7px;
   display: block;
   border-radius: 50%;
   width: 13px;
   height: 13px;
-}
+} */
 .on {
-  color: rgb(83, 214, 83);
+  color: green;
+  background-color: rgb(83, 214, 83);
 }
 .off {
-  color: rgb(215, 21, 21);
+  color: red;
+  background-color: rgb(215, 21, 21);
 }

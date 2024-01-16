@@ -7,7 +7,7 @@ export default function FriendList({ friends }) {
           <li key={id}>
             <img className="avatar" src={avatar} alt="Avatar" width="100" />
             <p className="name">{name}</p>
-            <p className={`status ${isOnline ? 'on' : 'Off'}`}>{isOnline ? 'Online' : 'Offline'}</p>
+            <p className="">{isOnline ? 'Online' : 'Offline'}</p>
           </li>
         ))}
       </ul>

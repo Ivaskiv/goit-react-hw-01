@@ -3,8 +3,8 @@ import Profile from './components/profile/Profile.jsx';
 import FriendList from './components/friendList/FriendList.jsx';
 import TransactionHistory from './components/transactionHistory/Transactions.jsx';
 import userData from './data/userData.json';
-import friends from './Data/friends.json';
-import transactions from './Data/transactions.json';
+import friends from './data/friends.json';
+import transactions from './data/transactions.json';
 
 export default function App() {
   // console.log(userData);

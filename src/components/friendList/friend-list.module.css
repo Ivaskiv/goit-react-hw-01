@@ -1,4 +1,4 @@
-.items {
+.friend-list {
   display: flex;
   flex-wrap: nowrap;
   width: 500px;
@@ -6,39 +6,4 @@
   box-sizing: border-box;
   gap: 10px;
   list-style: none;
-}
-.items li {
-  flex-basis: calc(33.33% - 10px);
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 6px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.items li img {
-  border-radius: 50%;
-  padding-bottom: 15px;
-}
-.name {
-  font-size: 20px;
-}
-.items li .name {
-  font-weight: bold;
-}
-.items li .status {
-  margin-top: 5px;
-}
-.status {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  margin-right: 20px;
-}
-.true {
-  color: green;
-}
-.false {
-  color: red;
 }

@@ -2,7 +2,6 @@ import FriendListItem from '../friendListItem/FriendListItem.jsx';
 import css from './friend-list.module.css';
 
 export default function FriendList({ friends }) {
-  console.log(friends);
   return (
     <div>
       <ul className={css['friend-list']}>

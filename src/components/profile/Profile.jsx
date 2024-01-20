@@ -9,15 +9,15 @@ export default function Profile({ username, tag, location, image, stats }) {
         <p className={css.location}>{location}</p>
       </div>
       <ul className={css.stats}>
-        <li className={css.itemli}>
+        <li className={css.items}>
           <span className={css.label}>Followers </span>
           <span className={css.value}>{stats ? stats.followers : 0}</span>
         </li>
-        <li className={css.itemli}>
+        <li className={css.items}>
           <span className={css.label}>Views</span>
           <span className={css.value}>{stats ? stats.views : 0}</span>
         </li>
-        <li className={css.itemli}>
+        <li className={css.items}>
           {' '}
           <span className={css.label}>Likes</span>
           <span className={css.value}>{stats ? stats.likes : 0}</span>

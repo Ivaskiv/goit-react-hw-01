@@ -3,22 +3,29 @@
   width: 500px;
   box-shadow: 2px 2px 5px 1px rgb(150, 150, 150);
 }
-.header {
+
+.thead {
   color: #fff;
   font-size: 25px;
   padding: 10px;
 }
+
 .headerRow {
   background-color: rgb(30, 33, 33);
   height: 30px;
 }
+
 .headerCell,
 .bodyCell {
   padding: 5px;
   text-align: center;
 }
-.body {
+
+.tbody {
   justify-content: center;
+}
+
+.bodyRow {
   background-color: #fff;
   color: rgb(104, 103, 103);
   font-size: 18px;

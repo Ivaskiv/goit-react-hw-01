@@ -10,12 +10,12 @@
   padding: 10px;
 }
 
-.headerRow {
+.theadRow {
   background-color: rgb(30, 33, 33);
   height: 30px;
 }
 
-.headerCell,
+.theadCell,
 .bodyCell {
   padding: 5px;
   text-align: center;

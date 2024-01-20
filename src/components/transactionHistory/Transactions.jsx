@@ -3,10 +3,10 @@ export default function TransactionHistory({ items }) {
   return (
     <table className={css.history}>
       <thead className={css.thead}>
-        <tr className={css.headerRow}>
-          <th className={css.headerCell}>Type</th>
-          <th className={css.headerCell}>Amount</th>
-          <th className={css.headerCell}>Currency</th>
+        <tr className={css.theadRow}>
+          <th className={css.theadCell}>Type</th>
+          <th className={css.theadCell}>Amount</th>
+          <th className={css.theadCell}>Currency</th>
         </tr>
       </thead>
 
